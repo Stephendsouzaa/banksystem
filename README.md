@@ -8,9 +8,7 @@ This is a simple Django-based banking application. It allows users to perform ba
 - Replace `https://github.com/your-username/banking_project.git` with the actual URL of your GitHub repository.
 - If you have a `requirements.txt` file, it should list all the Python dependencies (such as `Django` and any others you might be using). If you don't have one, create it by running `pip freeze > requirements.txt` in your project directory.
 
-The project is structured as follows:
 
-banking_project/ ├── banking_app/ # Main application folder for the banking app │ ├── migrations/ # Database migrations │ ├── templates/ # Template folder for HTML files │ │ └── index.html # Main homepage HTML │ ├── init.py # Marks the directory as a Python package │ ├── admin.py # Admin panel configurations │ ├── apps.py # App configuration │ ├── models.py # Defines models (database schema) │ ├── tests.py # Test cases for the app │ ├── urls.py # URL routing for the app │ └── views.py # Views to handle user requests ├── banking_project/ # Main project folder │ ├── init.py # Marks the directory as a Python package │ ├── settings.py # Django project settings (database, installed apps, etc.) │ ├── urls.py # Project level URL routing │ └── wsgi.py # WSGI configuration for deployment ├── manage.py # Django management script to run commands
 
 ## Installation
 
